@@ -1,7 +1,7 @@
 // get name when user enters site
 function getName() {
   let txt = "";
-  let person = prompt("Please enter your name:");
+  let person = prompt("Please enter your full name:");
   if (person == null || person == "") {
     txt = "[Enter Name]"; // Cancelled Prompt
   } else {
