@@ -1,0 +1,17 @@
+body {
+  background: whitesmoke;
+  min-height: 100vh;
+}
+
+.btn {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+label {
+  text-decoration: underline;
+}
+
+.padding {
+  padding-top: 20px;
+}
