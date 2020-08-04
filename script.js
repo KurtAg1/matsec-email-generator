@@ -64,7 +64,7 @@ async function getJSON() {
     otherText = data.otherText;
     signOff = data.signOff;
     createSubject();
-    createEmail('Student'); // student perspective by default
+    createEmail("Student"); // student perspective by default
   } catch (error) {
     console.log(error);
   }
@@ -77,7 +77,7 @@ getJSON();
 const subjectBox = document.getElementById("subject");
 
 function createSubject() {
-  const subjectText = subjects[generateNum(4)];
+  const subjectText = subjects[generateNum(subjects.length)];
 
   subjectBox.value = subjectText;
 }
@@ -95,26 +95,42 @@ function createEmail(personView = view.value) {
   let fourthParagraphText;
   let signOffText = signOff[generateNum(signOff.length)];
 
-  switch(personView){
-    case 'Student':
-      firstParagraphText = studentText['firstPara'][generateNum(studentText['firstPara'].length)];
-      secondParagraphText = studentText['secondPara'][generateNum(studentText['secondPara'].length)];
-      thirdParagraphText = studentText['thirdPara'][generateNum(studentText['thirdPara'].length)];
-      fourthParagraphText = studentText['fourthPara'][generateNum(studentText['fourthPara'].length)];
+  switch (personView) {
+    case "Student":
+      firstParagraphText =
+        studentText["firstPara"][generateNum(studentText["firstPara"].length)];
+      secondParagraphText =
+        studentText["secondPara"][
+          generateNum(studentText["secondPara"].length)
+        ];
+      thirdParagraphText =
+        studentText["thirdPara"][generateNum(studentText["thirdPara"].length)];
+      fourthParagraphText =
+        studentText["fourthPara"][
+          generateNum(studentText["fourthPara"].length)
+        ];
       time.defaultValue = "08:00";
       break;
-    case 'Parent':
-      firstParagraphText = parentText['firstPara'][generateNum(parentText['firstPara'].length)];
-      secondParagraphText = parentText['secondPara'][generateNum(parentText['secondPara'].length)];
-      thirdParagraphText = parentText['thirdPara'][generateNum(parentText['thirdPara'].length)];
-      fourthParagraphText = parentText['fourthPara'][generateNum(parentText['fourthPara'].length)];
+    case "Parent":
+      firstParagraphText =
+        parentText["firstPara"][generateNum(parentText["firstPara"].length)];
+      secondParagraphText =
+        parentText["secondPara"][generateNum(parentText["secondPara"].length)];
+      thirdParagraphText =
+        parentText["thirdPara"][generateNum(parentText["thirdPara"].length)];
+      fourthParagraphText =
+        parentText["fourthPara"][generateNum(parentText["fourthPara"].length)];
       time.defaultValue = "09:00";
       break;
-    case 'Other':
-      firstParagraphText = otherText['firstPara'][generateNum(otherText['firstPara'].length)];
-      secondParagraphText = otherText['secondPara'][generateNum(otherText['secondPara'].length)];
-      thirdParagraphText = otherText['thirdPara'][generateNum(otherText['thirdPara'].length)];
-      fourthParagraphText = otherText['fourthPara'][generateNum(otherText['fourthPara'].length)];
+    case "Other":
+      firstParagraphText =
+        otherText["firstPara"][generateNum(otherText["firstPara"].length)];
+      secondParagraphText =
+        otherText["secondPara"][generateNum(otherText["secondPara"].length)];
+      thirdParagraphText =
+        otherText["thirdPara"][generateNum(otherText["thirdPara"].length)];
+      fourthParagraphText =
+        otherText["fourthPara"][generateNum(otherText["fourthPara"].length)];
       time.defaultValue = "10:00";
       break;
   }
