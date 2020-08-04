@@ -17,9 +17,8 @@
       <div class="row">
         <div class="col-12">
           <h1>Generate an email for matsec regarding September Exams:</h1>
-          <p>
-            You should copy these fields into an email and set a reminder for
-            when to send them.
+          <p class="font-italic">
+            You should copy these fields into an email and set a reminder for when to send them on Wednesday 5th August
           </p>
         </div>
       </div>
@@ -50,21 +49,37 @@
             Copy Subject
           </button>
           <button class="btn btn-primary" onclick="createSubject()">
-            Change Subject
+            Generate New Subject
           </button>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <label for="select">Select view:</label>
+          <select class="form-control" id="selectView">
+            <option>Student</option>
+            <option>Parent</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="time">Schedule email at:</label>
+          <input class="form-control" type="time" id="time">
+        </div>
+      </div>
+      <div class="row">
         <div class="col-12 padding">
           <label for="emailForMatsec">Email you should send:</label>
           <textarea
             class="form-control"
             id="emailForMatsec"
-            rows="25"
+            rows="10"
           ></textarea>
           <button class="btn btn-primary" onclick="copyText('emailForMatsec')">
             Copy Text
           </button>
           <button class="btn btn-primary" onclick="createEmail()">
-            Randomize Text
+            Generate New Text
           </button>
         </div>
       </div>

@@ -3,6 +3,14 @@ body {
   min-height: 100vh;
 }
 
+h1{
+  font-size: 40px;
+}
+
+.row{
+  padding-top: 10px;
+}
+
 .btn {
   margin-top: 5px;
   padding: 10px;
@@ -14,4 +22,10 @@ label {
 
 .padding {
   padding-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  h1{
+    font-size: 30px;
+  }
 }
