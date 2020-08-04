@@ -23,6 +23,9 @@ function copyText(id) {
 
   /* Copy the text inside the text field */
   document.execCommand("copy");
+
+  // Deselect text
+  window.getSelection().removeAllRanges();
 }
 
 // Generate random num
