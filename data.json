@@ -6,7 +6,7 @@
     "Students left in the dark"
   ],
 
-  "greetings": ["Dear Sir/Madam,", "To whom it may concern,", "Dear Matsec,"],
+  "greetings": ["Dear Sir/Madam,", "To whom it may concern,", "Dear MATSEC,"],
 
   "studentText": {
     "firstPara": [
@@ -16,13 +16,16 @@
 
     "secondPara": [
       "As a student, I cannot help but think of the possible implications of such a surge in cases, especially if this were to proceed during the exam period itself. This worries me as it puts the month-long efforts of myself, and surely of thousands of other students, in jeopardy, due to the possible postponement or cancellation of exams. Despite this, I firmly believe that the health and wellbeing of students, exam moderators and other staff alike, should be held above anything else, especially when considering that I myself have close family members with immunodeficiency diseases that increase their vulnerability to this virus while other students with such diseases will be at risk as well. I am aware that there was an update recently on the September 2020 Special Session but I found this worrying for several reasons including the amount of heat present in the examination rooms, while wearing masks, the uncertainty of how many students will be present in a room, the fact that we do not know where the exams will be held yet and the fact that our temperature will be taken prior to the exam while we would have been waiting in the heat for a while, having automatically raised our temperature, (or in another situation, the temperature could be normal for asymptomatic students/invigilators, while they are carriers of the virus).",
-      "Recent events show why it is a terrible idea for exams to still take place. Considering the fact that currently there is up to a week of waiting to get tested for COVID-19, many people simply don't go to get tested as they do not want to spend a week in quarantine until they get tested. This means that in the examination hall, there may be students who may be symptomatic and refuse to test as they would not be able to sit for the exams they have been eagerly waiting to finish. What will happen if someone shows symptoms? Will you place the entire classroom under quarantine, thus not allowing those students to sit for their other exams? What would happen if there cases spike up when exams are taking place? These are questions that should have been answered in the statement published last week by matsec.",
-      "Some students did not find help from lecturers during these months, after schools closed. I am aware that schools ended in June, but some lecturers did not help beforehand and that month we lost, they did not gain back whatsoever. This is why several students had to opt for private lessons. With this in mind, some parents or students could not afford such luxuries and had it harder than others since covid-19 also ended up bringing up unemployment. Jobsplus had to do something but nothing was announced and neither has the government. Therefore, some students had to learn chunks of the syllabus by themselves, making it unfair in comparison to other students who had the advantage of being taught the syllabus well."
+      "Recent events show why it is a terrible idea for exams to still take place. Considering the fact that currently there is up to a week of waiting to get tested for COVID-19, many people simply don't go to get tested as they do not want to spend a week in quarantine until they get tested. This means that in the examination hall, there may be students who may be symptomatic and refuse to test as they would not be able to sit for the exams they have been eagerly waiting to finish. What will happen if someone shows symptoms? Will you place the entire classroom under quarantine, thus not allowing those students to sit for their other exams? What would happen if there cases spike up when exams are taking place? These are questions that should have been answered in the statement published last week by MATSEC.",
+      "Some students did not find help from lecturers during these months, after schools closed. I am aware that schools ended in June, but some lecturers did not help beforehand and that month we lost, they did not gain back whatsoever. This is why several students had to opt for private lessons. With this in mind, some parents or students could not afford such luxuries and had it harder than others since covid-19 also ended up bringing up unemployment. Jobsplus had to do something but nothing was announced and neither has the government. Therefore, some students had to learn chunks of the syllabus by themselves, making it unfair in comparison to other students who had the advantage of being taught the syllabus well.",
+      "As recently announced by Owen Bonnici, exams are still to take place. Even though they have already come up with 3 scenarios for schools that are due to open in late September, there is still a plan that prepares for the worst. This is not the case for exams. Should the situation continue to worsen, what will students do? If a student is symptomatic, they will be hesitant to go test for the virus. The reason is that if they do come out positive, they cannot sit for the remainder of their exams! What will happen then? Will this student lose out on all his/her hard work and effort leading up to the exam?"
     ],
 
     "thirdPara": [
       "I understand your stress with handling such an uncomfortable situation, but together with many students, the anxiety and loss of focus to study due to the uncertainty of a system that puts us at risk, is neither reassuring nor healthy. I am sure that the MATSEC board has thought of such a turn of events happening, and possibly formulated another grading system in lieu of the current exam sessions. I only ask that us students are not kept in the dark, and are informed of this system or anything else that could be done, especially when considering that exams are meant to commence in less than a month.",
-      "I know these situations may be difficult to work around, but surely there is a better option rather than going head first into another spike in cases. I am certain there are other possibilities, but even if matsec has not prepared accordingly, the student should not suffer from their lack of understanding of the situation."
+      "I know these situations may be difficult to work around, but surely there is a better option rather than going head first into another spike in cases. I am certain there are other possibilities, but even if MATSEC has not prepared accordingly, the student should not suffer from their lack of understanding of the situation.",
+      "One has to keep in mind the fact that when both O’ Level & A’ Level examinations planned for May were cancelled, both the number of active cases and the reproductive rate of the virus were in fact lower than they are at the moment. Notwithstanding the fact that the situation might change before the start of these exams, many still feel that the health and safety of the students undertaking these exams is to be given utmost importance.",
+      "Surely MATSEC has thought about the extent of this situation, but there is no reassurance to the student of what will happen should the virus spreads throughout the examination period. It must be made clear what is supposed to happen, and how MATSEC will make sure each and every student is treated fairly and have a chance to sit for all of their exams."
     ],
 
     "fourthPara": [
@@ -33,7 +36,8 @@
 
   "parentText": {
     "firstPara": [
-      "I am writing this as a parent, having my child sitting for several exams in the upcoming session, that has become increasingly worried with the current situation."
+      "I am writing this as a parent, having my child sitting for several exams in the upcoming session, that has become increasingly worried with the current situation.",
+      "As a parent who has a child sitting for their exams in the upcoming September session, I cannot help but sympthize with what our children are going through, especially considering the uncertainty of the entire situation."
     ],
 
     "secondPara": [
@@ -55,7 +59,7 @@
   "otherText": {
     "firstPara": [
       "I am writing this email as a witness to the terrifying situation our country is currently in due to the COVID-19 pandemic.",
-      "I am not a student sitting for an exam in September. However, due to the ongoing COVID-19 pandemic, I cannot just stand around and watch Matsec stress out students with the examinations that are still taking place."
+      "I am not a student sitting for an exam in September. However, due to the ongoing COVID-19 pandemic, I cannot just stand around and watch MATSEC stress out students with the examinations that are still taking place."
     ],
 
     "secondPara": [
